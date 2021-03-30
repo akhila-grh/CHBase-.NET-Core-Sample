@@ -1,7 +1,7 @@
 # CHBase-.NET-Core-Sample
 ## 1. Online Connection
   Navigate to CHBaseHelloWorld folder.
-  Modify the app.config to set certificate path
+  Modify the app.config to set certificate path.
   Execute `dotnet run` to start the application.
   Open https://localhost:5001/ in browser (You may want to accept the self signed certificate)
   
@@ -11,8 +11,8 @@
   Execute `dotnet run` to start the offline console application
 
 ## 3. Patient Connect
-  Navigate to CHbase.SDK.Samples.PatientConnect folder
-  Modify the App.Config file to set certificate path
+  Navigate to CHbase.SDK.Samples.PatientConnect folder.
+  Modify the App.Config file to set certificate path.
   To execute `dotnet run`
   
   
