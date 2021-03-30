@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Height";
+}
+
+<h1>Height</h1>
+
+<p>
+    Person ID: @ViewData["PersonID"]
+    <br />
+    Person Name: @ViewData["Name"]
+    <br />
+    Record Name : @ViewData["RecordName"]
+    <br />
+</p>
+
+<ul>
+        @foreach (var @hgt in (IEnumerable<object>)ViewData["Height"])
+        {
+            <li>
+                @hgt
+            </li>
+        }
+    </ul>
